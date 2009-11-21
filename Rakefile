@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.summary = "The Kernel.g that works like Kernel.p on growl :)"
   s.description = "The Kernel.g that works like Kernel.p on growl :)"
   s.files = %w( #{Dir['lib/**/*.rb'].join(' ')}
+                #{Dir['generators/**/*.rb'].join(' ')}
                 #{Dir['spec/**/*.rb'].join(' ')}
                 README.markdown
                 Rakefile )

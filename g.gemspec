@@ -4,6 +4,7 @@ Gem::Specification.new do |s|
   s.summary = "The Kernel.g that works like Kernel.p on growl :)"
   s.description = "The Kernel.g that works like Kernel.p on growl :)"
   s.files = %w( lib/g.rb
+                generators/g_generator.rb generators/templates/initializers/g.rb
                 spec/g_spec.rb
                 README.markdown
                 Rakefile )
